@@ -10,8 +10,11 @@ class MainPage extends Component {
   render() {
     return (
       <main>
-        <h1>Hi from the MainPage </h1>
+        <div className="mainPage">
+        <div className="mainPage__container">
         <Card />
+        </div>
+        </div>
       </main>
     )
   }
