@@ -1,0 +1,14 @@
+@use '../../partials/mixins' as *;
+@use '../../partials/variables' as *;
+@use '../../partials/resets' as *;
+
+.card {
+  width: 100%;
+  background-color: $color-porcelain;
+  height: 140px;
+  width: 290px; 
+  margin: 1rem;
+  border-radius: 3px;
+  padding: 1rem;
+  box-shadow: 2px 2px $color-mountain-mist;
+}

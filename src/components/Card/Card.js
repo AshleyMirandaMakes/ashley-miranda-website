@@ -16,11 +16,15 @@ class Card extends Component {
 
   render() {
     let frontCard = (
-      <div className="card" onClick={this.handleClickedCard}>
-        <hi>
-          Card Front
-        </hi>
-      </div>
+      <section className="card">
+        <div className="card__container">
+          <div className="card__face" onClick={this.handleClickedCard}>
+            <hi>
+              Card Front
+            </hi>
+          </div>
+        </div>
+      </section>
     )
 
     let backCard = (

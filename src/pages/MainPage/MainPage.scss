@@ -1,0 +1,13 @@
+@use '../../partials/mixins' as *;
+@use '../../partials/variables' as *;
+@use '../../partials/resets' as *;
+
+.mainPage {
+  background-color: $color-petit-orchid;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  &__container {
+    @include flex-center;
+  }
+}
