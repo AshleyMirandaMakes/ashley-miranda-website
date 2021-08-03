@@ -18,10 +18,11 @@ class Card extends Component {
     let frontCard = (
       <section className="card">
         <div className="card__container">
-          <div className="card__face" onClick={this.handleClickedCard}>
-            <hi>
-              Card Front
-            </hi>
+          <div className="card__face">
+            <h1 className="card__header">
+              HEY
+            </h1>
+            <h3 className="card__details">This is my business "card". Let's <span className="card__details--special" onClick={this.handleClickedCard}>talk!</span></h3>
           </div>
         </div>
       </section>
