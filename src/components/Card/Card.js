@@ -30,9 +30,14 @@ class Card extends Component {
 
     let backCard = (
       <div className="card" onClick={this.handleClickedCard}>
-        <hi>
-          Card Back
-        </hi>
+      <div className="card__face">
+        <h1 className="card__header backCard__header">ASHLEY MIRANDA</h1>
+        <h3 className="card__details backCard__details">web developer. coffee nerd. bartender. plant enthusiast. design novice.</h3>
+        <li>
+        <ul>linkedin</ul>
+        <ul>github</ul>
+        </li>
+      </div>
       </div>
     )
 

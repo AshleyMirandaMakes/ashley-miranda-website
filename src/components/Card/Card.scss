@@ -28,6 +28,18 @@
     &--special {
       font-size: 1.05rem;
       color: $color-old-lavender;
+      &:hover {
+        font-style: italic;
+      }
     }
+  }
+}
+
+.backCard {
+  &__header {
+    text-align: left;
+  }
+  &__details {
+    width: 80%;
   }
 }
